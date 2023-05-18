@@ -1,0 +1,169 @@
+body,
+html {
+    background: url(imgs/1.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation: slide_main 20s infinite;
+}
+
+/* https://assets.entrepreneur.com/content/3x2/2000/1634290910-ricke-76-LiFawPE9T8I-unsplash.jpg) no-repeat center center fixed */
+
+#nav_ul li {
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+#nav_ul li:hover {
+    background-color: rgb(141, 182, 189);
+    border-radius: 20px;
+}
+
+#navbar {
+    position: fixed;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-family: 'raleway';
+    top: 0;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#submit_btn {
+    width: 100px;
+    background-color: rgb(15, 206, 47);
+    border: none;
+}
+
+#submit_btn:hover {
+    background-color: green;
+}
+
+.imgs {
+    background: url(imgs/1.jpeg);
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 180px;
+    margin: 130px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide_main {
+    25% {
+        background: url(imgs/2.jpeg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    50% {
+        background: url(imgs/3.jpeg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    75% {
+        background: url(imgs/4.jpeg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    100% {
+        background: url(imgs/5.jpeg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+}
+
+@keyframes slide {
+    25% {
+        background: url(imgs/2.jpeg);
+        background-size: cover;
+    }
+
+    50% {
+        background: url(imgs/3.jpeg);
+        background-size: cover;
+    }
+
+    75% {
+        background: url(imgs/4.jpeg);
+        background-size: cover;
+    }
+
+    100% {
+        background: url(imgs/5.jpeg);
+        background-size: cover;
+    }
+
+}
+
+#gallery_heading {
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px 10px;
+    font-family: 'raleway';
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.container-img {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.pic {
+    position: relative;
+    height: 230px;
+}
+
+.pic img {
+    height: 100%;
+    width: 100%;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 40px;
+    font-family: 'raleway';
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.heading_about {
+    text-align: center;
+}
+
+.rice_main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-family: 'raleway';
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.rice_labels {
+    display: flex;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a:hover {
+    background-color: rgb(217, 217, 217);
+    padding: 0px 20px;
+    border-radius: 20px;
+}
